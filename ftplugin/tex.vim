@@ -7,13 +7,14 @@
     au FileType tex inoremap ,sn \section{}<++><Esc>F{a
     au FileType tex inoremap ,ssn \subsection{}<++><Esc>F{a
     au FileType tex inoremap ,ol \begin{enumerate}<CR>
+    au FileType tex inoremap ,/ \frac{<++>}{<++>}<Esc>2F{a
                 \\item <++><CR>
                 \\end{enumerate}<Esc>kk0
     au FileType tex inoremap ,ul \begin{itemize}<CR>
                 \\item <++><CR>
                 \\end{itemize}<Esc>kk0
-    au FileType tex inoremap ,li \item<Esc>Fma
-    au FileType tex inoremap ,/ \frac{<++>}{<++>}<Esc>2F{a
+    au FileType tex inoremap ,li \item
+    au FileType tex inoremap ,. \times
 
 " LaTeX Templates
     command LatexStandardTemplate :normal i
