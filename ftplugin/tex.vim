@@ -18,7 +18,7 @@
 
 " LaTeX Templates
     command LatexStandardTemplate :normal i
-        \\documentclass[a4paper, 12]{article}<CR>
+        \\documentclass[a4paper, 12pt]{article}<CR>
         \\usepackage{amsmath}<CR>
         \\usepackage[utf8]{inputenc}<CR>
         \\renewcommand{\familydefault}{\sfdefault}<CR>
