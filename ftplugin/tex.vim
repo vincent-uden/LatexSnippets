@@ -6,8 +6,8 @@
     inoremap ,un \underline{}<++><Esc>F{a
     inoremap ,sn \section{}<++><Esc>F{a
     inoremap ,ssn \subsection{}<++><Esc>F{a
-    inoremap ,ol \begin{enumerate}<CR>
     inoremap ,/ \frac{<++>}{<++>}<Esc>2F{a
+    inoremap ,ol \begin{enumerate}<CR>
                 \\item <++><CR>
                 \\end{enumerate}<Esc>kk0
     inoremap ,ul \begin{itemize}<CR>
